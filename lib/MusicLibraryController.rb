@@ -8,6 +8,8 @@ class MusicLibraryController
   
   def call 
     
+    
+    
     if input != exit
     puts "Welcome to your music library!"
     puts "To list all of your songs, enter 'list songs'."
@@ -18,8 +20,7 @@ class MusicLibraryController
     puts "To play a song, enter 'play song'."
     puts "To quit, type 'exit'."
     puts "What would you like to do?"
-    
-    input = get.chomp
+  
     
   end
   
