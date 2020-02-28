@@ -8,7 +8,7 @@ class MusicLibraryController
   
   def call 
     
-    input = get.chomp
+    input = gets.chomp
     
     if input != exit
       
